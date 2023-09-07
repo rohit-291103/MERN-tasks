@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TASK-7</title>
+</head>
+<style>
+    body{
+        background-color: rgb(146, 11, 81);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container{
+        background-color: rgb(107, 26, 61);
+        width: fit-content;
+        padding: 20px;
+    }
+
+    button{
+        width: 200px;
+    }
+</style>
+<body>
+    <div class="container">
+        <table>
+            <tR>
+                <th>Name:</th>
+                <td>
+                    <input type="text" placeholder="your name">
+                </td>
+            </tR>
+    
+            <tr>
+                <th>Email:</th>
+                <td>
+                    <input type="email" placeholder="your email">
+                </td>
+            </tr>
+    
+            <tr>
+                <th>Password:</th>
+                <td>
+                    <input type="password">
+                </td>
+            </tr>
+            <tr>
+                <th>Phonenumber:</th>
+                <td>
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <th>Gender:</th>
+                <td>
+                    <input type="radio" value="Male" name="options">Male
+                    <input type="radio" value="Female" name="options">Female
+                    <input type="radio" value="Others" name="options">Others
+                </td>
+            </tr>
+    
+            <tR>
+                <th>language</th>
+                <td>
+                    <select>
+                        <option>Select language</option>
+                        <option>English</option>
+                        <option>Hindi</option>
+                        <option>Tamil</option>
+                    </select>
+                </td>
+            </tR>
+            <tr>
+                <th>Zipcode:</th>
+                <td>
+                    <input type="tel">
+                </td>
+            </tr>
+            <tr>
+                <th>About:</th>
+                <td>
+                    <textarea placeholder="wrtie about yourself"></textarea>
+                </td>
+            </tr>   
+            
+            <tr>
+                <td colspan="2" style="text-align: center;"><button><B>REGISTER</B></button></td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
