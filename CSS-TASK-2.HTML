@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TASK-2</title>
+</head>
+<style>
+    .container{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        padding: 10px;
+        padding-bottom: 0px;
+        color: blue;
+    }
+
+    .box{
+        /* border: 1px solid red; */
+        width:140px;
+        background-color: aqua;
+        padding:8px;
+    }
+
+    .active{
+        background-color: darkgoldenrod;
+        color: aliceblue;
+    }
+
+    .hori{
+        position: absolute;
+        display: inline;
+        top: 7px;
+        left: 500px;
+    }
+
+    .container2{
+        border: 2px solid black;
+        display: flex;
+        position: absolute;
+        top: 80px;
+        left: 500px;
+        padding: 10px;
+        color: blue;
+    }
+
+    .box2{
+        border: 1px solid blue;
+        border-top: 0px;
+        border-bottom: 0px;
+        padding: 5px;
+        border-right: 0px;
+    }
+
+    .active2{
+        background-color: grey;
+        color: aliceblue;
+        border: none;
+    }
+</style>
+<body>
+    <H2>Vertical Navigation Bar</H2>
+
+    <div class="container">
+        <div class="box active">Home</div>
+        <div class="box">Java</div>
+        <div class="box">CSS</div>
+        <div class="box">HTML</div>
+        <div class="box">Bootstrap</div>
+    </div>
+
+    <H2 class="hori">Horizontal Navigation Bar</H2>
+
+    <div class="container2">
+        <div class="box2 active2">Home</div>
+        <div class="box2">Java</div>
+        <div class="box2">CSS</div>
+        <div class="box2">HTML</div>
+        <div class="box2">Bootstrap</div>
+    </div>
+
+</body>
+</html>

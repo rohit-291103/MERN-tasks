@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TASK-6</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        img{
+            margin-left: 70px;
+        }
+        .container{
+            position: absolute;
+            display: flex;
+            flex-direction: column;
+            /* border: 2px solid black; */
+            width: fit-content;
+            top: 25%;
+            padding: 24px;
+        }
+
+        button{
+            margin: 5px;
+            position: relative;
+            right: 27px;
+            background-color: rgb(83, 221, 83);
+            color: antiquewhite;
+        }
+
+        .form{
+            text-align: left;
+            padding-left: 0px;
+            /* border: 2px solid red; */
+            width: 117%;
+            position: relative;
+            margin-left: -24px;
+            color: black;
+        }
+
+        .Cancel{
+            margin-left: 27px;
+            background-color: red;
+            padding: 4px;
+            border-radius: 5px;
+        }
+
+        p{
+            display: inline;
+            margin-left: 148px;
+            position: relative;
+            left: 60px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGOTXDXOzO_T82MtCHXTHzS5QZQW0ovdpgDw&usqp=CAU">
+        </div>
+        <div class="form">
+            <label>Username</label><br>
+            <input type="text" placeholder="Enter username" style="width: 100%;">
+            <br><br>
+            <label>Password</label><br>
+            <input type="password" placeholder="Enter password" style="width: 100%;">
+            <button style="width: 103%;margin-left: 27px;">Login</button>
+            <input type="checkbox" style="color: blue;">Remember me<bR>
+            <button class="Cancel">Cancel</button>
+
+            <p>Forgot <a href="#">password?</a></p>
+        </div>
+    </div>
+    <footer>
+        
+    </footer>
+</body>
+</html>

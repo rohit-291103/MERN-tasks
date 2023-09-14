@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-TASK-4</title>
+
+    <style>
+        *{
+            padding: 0px;
+        }
+        li{
+            list-style: none;
+        }
+
+        .list{
+            /* border: 2px solid black; */
+            width: 80px;
+            height: 80px;
+            margin: 10px;
+            margin-left: 0px;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        .list:hover{
+            width: 100px;
+        }
+
+        #l1{
+            background-color: green;
+        }
+
+        #l2{
+            background-color: blue;
+        }
+
+        #l3{
+            background-color: red;
+        }
+
+        #l4{
+            background-color: grey;
+        }
+        .container{
+            /* border: 2px solid red; */
+            margin-top: 10px;
+            display: flex;
+            position: relative;
+            right: 10px;
+        }
+
+        .container h1{
+            position: relative;
+            top: 50px;
+            left:40px
+        }
+
+        .container p{
+            position: relative;
+            top:100px;
+            right:300px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        <ul>
+            <li class="list" id="l1">1</li>
+            <li class="list" id="l2">2</li>
+            <li class="list" id="l3">3</li>
+            <li class="list" id="l4">4</li>
+        </ul>
+
+        <h1>Hoverbale Sidenav button</h1>
+        <p>Hover buttons in the left side navigation to open them</p>
+    </div>
+</body>
+</html>
